@@ -1,0 +1,184 @@
+﻿*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header{
+    padding: 40px,20px;
+    background-color: lightgrey;
+}
+
+footer{
+    position: fixed;
+    bottom:0;
+}
+
+
+#Heading1
+{
+ color: coral;
+ font-size: 20px;
+ text-align: center;
+ text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.181);
+ font-family: sans-serif;
+ margin: 0;
+ font-weight: bold;
+ display: block;
+}
+#Par1{
+ color: coral;
+ font-size: 10px;
+ text-align: center;
+ text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.181);
+ font-family: sans-serif;
+ margin: 0;
+ font-weight: bold;
+ display: block;
+}
+
+#Body{
+    background-color: lightgray;
+    font-family: sans-serif;
+    min-height: 100%;
+}
+
+hr{
+color: rgba(169, 169, 169, 0.459);
+}
+
+
+a:visited{
+    color: purple
+}
+a:hover{
+    color: blue
+}
+a:active{
+    color: violet
+}
+a:link{
+    color: darkblue
+}
+
+#Mans{
+    width:64px;
+    height:64px;
+}
+
+.body{
+    margin: 0;
+    background-color: lightgray;
+}
+
+#Sortby{
+    font-family: sans-serif;
+    background-color: darkgrey;
+    right: 50%;
+    transform:translateX(50%) ;
+}
+#Search{
+    font-family: sans-serif;
+    background-color: darkgrey;
+    right: 40%;
+    transform: translateX(40%);
+    
+}
+#Filter{
+    font-family: sans-serif;
+    background-color: darkgrey;
+    right: 30%;
+    transform: translateX(30%);
+    
+}
+
+.container
+{
+    margin:0;
+    padding: 10px;
+    background-color: darkgray;
+    display: block;
+}
+
+.Banner{
+    margin:0 auto;
+}
+
+#BannerC{
+    margin:0 auto;
+}
+
+
+#Account:hover{color: black;}
+#Account{
+    color: coral;
+    -webkit-text-stroke: 0.3px black;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    font-family: sans-serif; 
+}
+
+#About:hover{color: black;}
+#About{
+    color: coral;
+    -webkit-text-stroke: 0.3px black;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    font-family: sans-serif;   
+}
+
+#View:hover{color: black;}
+#View{
+    
+    color: coral;
+    -webkit-text-stroke: 0.3px black;
+    text-shadow: 1px 1px black;
+    text-align: center;
+    font-family: sans-serif;  
+}
+
+#Div1{
+    position: relative;;
+}
+
+.Banner{
+    font-family: sans-serif;
+    font-size: 28px;
+    font-weight: bold;
+    color: coral;
+    text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.181);
+}
+
+nav{
+    display:grid;
+    grid-template-columns: auto 1fr;
+    align-items: center;
+    grid-column-gap:30px;
+    grid-template-rows: 70px;
+    box-shadow: 0,5px,5px rgba(0, 0, 0, 0.015);
+    position: sticky;
+    top:0;
+    background-color: darkgray;
+    padding-left:20px;
+    padding-right: 20px;
+}
+
+nav a{
+    text-decoration: none;
+    display:inline-block;
+    padding: 10px,35px;
+    transition: backround 0.3s, color 0.3s;
+    color: coral;
+    font-size: 20px;
+    font-weight: bold;
+    text-shadow: 0.5px 0.5px rgba(0, 0, 0, 0.181);
+
+}
+nav a:hover,
+nav a:active{
+    background:rgba(169, 169, 169, 0.50) ;
+    color:rgb(255, 127, 90);
+    border-radius: 3px;
+}
+
+
