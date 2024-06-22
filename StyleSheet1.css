@@ -12,6 +12,9 @@ header{
 footer{
     position: fixed;
     bottom:0;
+    padding:20px;
+    backround-color: darkgrey;
+    width: 100%;
 }
 
 
