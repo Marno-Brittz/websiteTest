@@ -187,4 +187,61 @@ nav a:active{
     border-radius: 3px;
 }
 
+main{
+    padding: 20px;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 30px;
+    margin-top:30px;
+    margin-bottom: 30px; 
+}
+
+#Section-TitleL{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+#left{
+    border-right:thin solid black;
+    padding-right: 20px;
+}
+#left a{
+    display:block;
+    text-decoration: none;
+    color:black;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+#left a:hover{
+text-decoration: underline;
+}
+#Product{
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+}
+#ProductL img{
+height: 150px;
+display: block;
+margin: 0 auto;
+}
+#titleRR a{
+font-weight: bold;
+font-size: 18px;
+text-decoration: none;
+color: black;
+line-height: 26px;
+}
+#titleRR a:hover{
+text-decoration: underline;
+}
+#descriptionRR{
+    margin-top: 10px;
+}
+#priceRR{
+    font-family: 28px;
+    margin-top: 30px;
+    color: darkblue;
+}
+
 
